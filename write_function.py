@@ -1,4 +1,4 @@
-
+# First Option
 def is_leap(year):
     if year % 4 == 0:
         if year % 100 == 0:
@@ -13,3 +13,12 @@ def is_leap(year):
         
 year = int(input())
 print(is_leap(year))
+
+
+# Second Option
+def main():
+    year = int(input().strip())  # Assuming input is read as integer
+    print(is_leap(year))
+
+if __name__ == "__main__":
+    main()
